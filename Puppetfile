@@ -53,5 +53,34 @@ github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
 
+# libraries
+github "java",       "1.2.0"
+
+# local applications
+github "iterm2",     "1.0.4"
+github "keyremap4macbook", "1.1.0"
+github "alfred",     "1.1.7"
+github "vagrant",    "3.0.4"
+github "virtualbox", "1.0.10"
+github "evernote",   "2.0.5"
+github "skype",      "1.0.8"
+github "dropbox",    "1.2.0"
+github "chrome",     "1.1.2"
+github "things",     "1.0.1"
+github "intellij",   "1.4.0"
+github "sequel_pro", "1.0.1"
+github "cyberduck",  "1.0.1"
+
+# from brew
+github "mysql",      "1.99.8"
+github "redis",      "3.0.3"
+github "emacs",      "1.1.0"
+github "zsh",        "1.0.0"
+github "clojure",    "1.2.0"
+github "vim",        "1.0.5"
+github "ctags",      "1.0.0"
+github "tmux",       "1.0.2"
+github "wget",       "1.0.0"
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
