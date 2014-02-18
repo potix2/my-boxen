@@ -52,13 +52,14 @@ github "ruby",       "6.7.2"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
+github "osx",        "2.2.2"
 
 # libraries
 github "java",       "1.2.0"
 
 # local applications
 github "iterm2",     "1.0.4"
-github "keyremap4macbook", "1.1.0"
+github "keyremap4macbook", "1.2.1"
 github "alfred",     "1.1.7"
 github "vagrant",    "3.0.4"
 github "virtualbox", "1.0.10"
@@ -72,8 +73,8 @@ github "sequel_pro", "1.0.1"
 github "cyberduck",  "1.0.1"
 
 # from brew
-github "mysql",      "1.99.8"
-github "redis",      "3.0.3"
+#github "mysql",      "1.99.8"
+#github "redis",      "3.0.3"
 github "emacs",      "1.1.0"
 github "zsh",        "1.0.0"
 github "clojure",    "1.2.0"

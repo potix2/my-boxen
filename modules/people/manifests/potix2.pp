@@ -7,13 +7,15 @@ class people::potix2 {
 
   include java
   include iterm2::stable
+  include keyremap4macbook
   include keyremap4macbook::login_item
   include alfred
   include virtualbox
   include vagrant
-  include redis
+
+  #include mysql
+  #include redis
   include emacs
-  include mysql
   include zsh
   include clojure
   include vim
@@ -43,7 +45,8 @@ class people::potix2 {
       'readline',
       'reattach-to-user-namespace',
       'tree',
-      'tig'
+      'tig',
+      'the_silver_searcher'
     ]:
   }
 
