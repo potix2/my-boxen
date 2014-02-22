@@ -22,6 +22,7 @@ class people::potix2 {
   include ctags
   include tmux
   include wget
+  include python
 
   include evernote
   include dropbox
@@ -31,10 +32,12 @@ class people::potix2 {
   include intellij
   include cyberduck
   include sequel_pro
+  include menumeters
 
   $home     = "/Users/${::boxen_user}"
   $ws       = "${home}/ws"
   $dotfiles = "${ws}/dotfiles"
+  $zshcomps = "${ws}/zsh-completions"
 
   file { $ws:
     ensure  => directory
@@ -46,12 +49,20 @@ class people::potix2 {
       'reattach-to-user-namespace',
       'tree',
       'tig',
-      'the_silver_searcher'
+      'the_silver_searcher',
+      'gradle',
+      'clojure',
+      'giter8'
     ]:
   }
 
   repository { $dotfiles:
     source   => 'potix2/dotfiles',
+    require  => File[$ws]
+  }
+
+  repository { $zshcomps:
+    source   => 'zsh-users/zsh-completions',
     require  => File[$ws]
   }
 

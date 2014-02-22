@@ -82,6 +82,7 @@ github "vim",        "1.0.5"
 github "ctags",      "1.0.0"
 github "tmux",       "1.0.2"
 github "wget",       "1.0.0"
+github "python",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

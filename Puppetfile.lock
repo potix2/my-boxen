@@ -129,6 +129,11 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.2.0)
@@ -231,6 +236,7 @@ DEPENDENCIES
   osx (= 2.2.2)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
+  python (= 1.1.1)
   repository (= 2.2.0)
   ruby (= 6.7.2)
   sequel_pro (= 1.0.1)
